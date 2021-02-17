@@ -18,6 +18,7 @@ body p {
     display: flex;
    flex-wrap: wrap;
 }
+
 .first{
     width: 400px;
     position: relative;
@@ -28,19 +29,23 @@ body p {
     background-image: url("img.png");
     background-position: center;
 }
+
 .float_top{
     background-color: grey;
     position: sticky;
     top: 0;
     z-index: 1;
 }
+
 .float_top p{
     padding: 5px;
 }
+
 .float_text2{
     background-color: #686868;
     height: 200px;
 }
+
 .float_text2 p{
     padding-left: 5px;
     padding-top: 12px;
@@ -59,11 +64,13 @@ body p {
     background-color: rgb(233, 210, 1);
     position: relative;
 }
+
 .second p{
     padding: 5px;
     position: sticky;
     top: 0;
 }
+
 #second_bott{
     position: absolute;
     bottom:0;
@@ -74,6 +81,8 @@ body p {
     width: 400px;
     background-image: url("iimage.jpg");
     position: relative;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .fourth {
@@ -93,8 +102,8 @@ footer{
     box-sizing: content-box;
     width: 100%;
     background-color: black;
-    min-height: 1000px;
-   margin-bottom: 0px;
+    height: 1000px;
+
 }
 
 @media screen and (max-width: 1417px) {
