@@ -4,6 +4,8 @@ let searchUrl = window.location.search;
 let timer;
 let n;
 
+// I stored variable in 'search' part of URL. For testing, check example.png please
+
 function counter(n) {
   Btn.innerHTML = n + ' sec';
   Field.value = n;
@@ -23,6 +25,7 @@ function counter(n) {
 //         /. .\
 //        =\_Y_/=
 //         {>o<}
+
 
 
 document.addEventListener('DOMContentLoaded', function (event) {
